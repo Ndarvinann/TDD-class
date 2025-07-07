@@ -13,3 +13,6 @@ describe('multiply', () => {
 it('returns 9 when multiplying 3 and 3', () => {
   expect(multiply(3, 3)).to.equal(9);
 });
+it('returns 16 when multiplying 4 and 4', () => {
+  expect(multiply(4, 4)).to.equal(16);
+});
