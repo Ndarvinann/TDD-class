@@ -10,3 +10,6 @@ describe('multiply', () => {
     expect(multiply(2, 2)).to.equal(4);
   });
 });
+it('returns 9 when multiplying 3 and 3', () => {
+  expect(multiply(3, 3)).to.equal(9);
+});
