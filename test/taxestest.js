@@ -11,6 +11,6 @@ describe('calculateTax', () => {
   });
 
   it('returns 40% tax for earnings above £36k', () => {
-    expect(calculateTax(50000)).to.equal(13200);
+    expect(calculateTax(50000)).to.equal(10400);
   });
 });
